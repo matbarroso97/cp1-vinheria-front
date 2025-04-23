@@ -493,27 +493,45 @@ footer nav a {
   font-family: 'Chau Philomene One', serif;
 }
 
-.secao-titulo-vinho .linha {
-  width: 40px; /* Curta — para "Tintos", "Brancos" */
-  height: 3px;
-  background-color: #800028;
-  margin: 4px 16px;
-  border-radius: 5px;
-}
-
-.secao-titulo-vinho .linha-short {
-  width: 30px; /* Muito curta — ideal para "Kits" */
+.secao-titulo-vinho .linha-t {
+  width: 35px; /* Curta — para "Tintos" */
   height: 3px;
   background-color: #800028;
   margin: 4px 12px;
   border-radius: 5px;
 }
 
-.secao-titulo-vinho .linha-long {
-  width: 70px; /* Longa — ideal para "Exclusivos", "Sobremesas", etc. */
+.secao-titulo-vinho .linha-b {
+  width: 40px; /* Curta — para "Brancos" */
   height: 3px;
   background-color: #800028;
-  margin: 4px 40px;
+  margin: 4px 16px;
+  border-radius: 5px;
+}
+
+.secao-titulo-vinho .linha-long-e {
+  width: 70px; /* exlusivos */
+  height: 3px;
+  background-color: #800028;
+  margin: 4px 20px;
+  border-radius: 5px;
+}
+
+
+
+.secao-titulo-vinho .linha-short {
+  width: 25px; /* Muito curta — ideal para "Kits" */
+  height: 3px;
+  background-color: #800028;
+  margin: 4px 7px;
+  border-radius: 5px;
+}
+
+.secao-titulo-vinho .linha-long {
+  width: 70px; /* Longa — ideal para "Espumantes", "Sobremesas", etc. */
+  height: 3px;
+  background-color: #800028;
+  margin: 4px 30px;
   border-radius: 5px;
 }
 
@@ -571,10 +589,10 @@ footer nav a {
 }
 
 .secao-titulo-oferta .linha-oferta {
-  width: 90px; /* Longa — ideal para "Exclusivos", "Sobremesas", etc. */
+  width: 90px; /* linha pra oferta */
   height: 3px;
   background-color: #800028;
-  margin: 4px 100px;
+  margin: 4px 90px;
   border-radius: 5px;
 }
 
