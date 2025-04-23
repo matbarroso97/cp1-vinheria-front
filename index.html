@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="vinhos, vinheria, loja de vinhos, vinho tinto, vinho branco" />
+  <meta name="description" content="Vinheria Agnello - experiência em vinhos com atendimento personalizado." />
+  <title>Vinheria Agnello</title>
+  <link rel="icon" type="image/png" href="src/assets/imgs/logo.ico" />
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="claro">
+    <div class="container">
+      <img src="src/assets/imgs/agnello-logo.png" alt="Vinheria Agnello" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="index.html" class="nav-link">Inicio</a></li>
+          <li><a href="src/pages/vinhos.html" class="nav-link">Vinhos</a></li>
+          <li><a href="src/pages/ofertas.html" class="nav-link">Ofertas</a></li>
+          <li><a href="src/pages/sobre.html" class="nav-link">Sobre</a></li>
+          <li><a href="src/pages/contato.html" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="search-box">
+        <form id="form-busca">
+          <input type="text" placeholder="Buscar..." id="campo-busca" />
+          <button type="submit">🔍</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="carousel-container">
+      <div class="carousel" id="carousel">
+        <img src="src/assets/imgs/bemvindo.png" class="active" alt="Banner 1" />
+        <img src="src/assets/imgs/bannerpromo.png" alt="Banner 2" />
+        <img src="src/assets/imgs/banner3.png" alt="Banner 3" />
+        <div class="carousel-controls">
+          <button id="prevBtn">&#10094;</button>
+          <button id="nextBtn">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="categorias">
+      <div class="secao-titulo">
+        <h2>Explore nossas categorias</h2>
+        <div class="linha"></div>
+      </div>
+
+      <div class="icones-categorias">
+        <a href="src/pages/vinhos.html#tintos" class="categoria-item">
+          <div class="icon-circle">
+            <img src="src/assets/imgs/logotinto.png" alt="Tintos">
+          </div>
+          <p>Tintos</p>
+        </a>
+
+        <a href="src/pages/vinhos.html#brancos" class="categoria-item">
+          <div class="icon-circle">
+            <img src="src/assets/imgs/logobranco.png" alt="Brancos">
+          </div>
+          <p>Brancos</p>
+        </a>
+
+        <a href="src/pages/vinhos.html#espumantes" class="categoria-item">
+          <div class="icon-circle">
+            <img src="src/assets/imgs/logoespumante.png" alt="Espumantes">
+          </div>
+          <p>Espumantes</p>
+        </a>
+
+        <a href="src/pages/vinhos.html#sobremesas" class="categoria-item">
+          <div class="icon-circle">
+            <img src="src/assets/imgs/logosobremesa.png" alt="Sobremesas">
+          </div>
+          <p>Sobremesas</p>
+        </a>
+
+        <a href="src/pages/vinhos.html#exclusivos" class="categoria-item">
+          <div class="icon-circle">
+            <img src="src/assets/imgs/logoexclusivo.png" alt="Exclusivos">
+          </div>
+          <p>Exclusivos</p>
+        </a>
+
+        <a href="src/pages/vinhos.html#kits" class="categoria-item">
+          <div class="icon-circle">
+            <img src="src/assets/imgs/logokits.png" alt="Kits">
+          </div>
+          <p>Kits</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="produtos">
+      <div class="secao-titulo">
+        <h2>Seleção do Enólogo</h2>
+        <div class="linha"></div>
+      </div>
+      <div class="lista-produtos">
+        <div class="produto">
+          <img src="src/assets/imgs/exclusivo1.png" alt="Vinum Olympus">
+          <h3>Vinum Olympus</h3>
+          <p>R$ 1.290,00</p>
+          <div class="acao-produto">
+            <input type="number" value="1" min="1" placeholder="Quantidade" class="quantidade-input">
+            <button>Comprar</button>
+          </div>
+        </div>
+        <div class="produto">
+          <img src="src/assets/imgs/vinhoenologo2.png" alt="Vinho Branco">
+          <h3>Branco Premium</h3>
+          <p>R$ 184,00</p>
+          <div class="acao-produto">
+            <input type="number" value="1" min="1" placeholder="Quantidade" class="quantidade-input">
+            <button>Comprar</button>
+          </div>
+        </div>
+        <div class="produto">
+          <img src="src/assets/imgs/vinhoenologo3.png" alt="Vinho de Sobremesa">
+          <h3>Sobremesa Elegante</h3>
+          <p>R$ 222,00</p>
+          <div class="acao-produto">
+            <input type="number" value="1" min="1" placeholder="Quantidade" class="quantidade-input">
+            <button>Comprar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="produtos">
+      <div class="secao-titulo">
+        <h2>O que outros clientes estão comprando</h2>
+        <div class="linha"></div>
+      </div>
+      <div class="lista-produtos">
+        <div class="produto">
+          <img src="src/assets/imgs/vinhobranco2.png" alt="Fino Luso" />
+          <h3>Fino Luso</h3>
+          <p>R$ 95,70</p>
+          <div class="acao-produto">
+            <input type="number" value="1" min="1" placeholder="Quantidade" class="quantidade-input">
+            <button>Comprar</button>
+          </div>
+        </div>
+        <div class="produto">
+          <img src="src/assets/imgs/espumante2.png" alt="Aurum Brut" />
+          <h3>Aurum Brut</h3>
+          <p>R$ 499,00</p>
+          <div class="acao-produto">
+            <input type="number" value="1" min="1" placeholder="Quantidade" class="quantidade-input">
+            <button>Comprar</button>
+          </div>
+        </div>
+        <div class="produto">
+          <img src="src/assets/imgs/vinho4.png" alt="Merlot Clássico" />
+          <h3>Merlot Clássico</h3>
+          <p>R$ 72,00</p>
+          <div class="acao-produto">
+            <input type="number" value="1" min="1" placeholder="Quantidade" class="quantidade-input">
+            <button>Comprar</button>
+          </div>
+        </div>
+        <div class="produto">
+          <img src="src/assets/imgs/kit1.png" alt="Kit Porto Silva" />
+          <h3>Kit Porto Silva</h3>
+          <p>R$ 479,90</p>
+          <div class="acao-produto">
+            <input type="number" value="1" min="1" placeholder="Quantidade" class="quantidade-input">
+            <button>Comprar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="combina-com">
+      <div class="secao-titulo">
+        <h2>Combina com</h2>
+        <div class="linha"></div>
+        <p>Descubra os vinhos ideais para cada tipo de prato e ocasiões</p>
+      </div>
+      <div class="combina-cards">
+        <div class="card-combina">
+          <img src="src/assets/imgs/aves.png" alt="Aves">
+          <div class="overlay"><span>Aves</span></div>
+        </div>
+        <div class="card-combina">
+          <img src="src/assets/imgs/carne.png" alt="Carnes">
+          <div class="overlay"><span>Carnes</span></div>
+        </div>
+        <div class="card-combina">
+          <img src="src/assets/imgs/frutosdomar.png" alt="Frutos do Mar">
+          <div class="overlay"><span>Frutos do Mar</span></div>
+        </div>
+        <div class="card-combina">
+          <img src="src/assets/imgs/queijos.png" alt="Queijos">
+          <div class="overlay"><span>Queijos</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="depoimentos">
+      <div class="secao-titulo">
+        <h2>Depoimentos</h2>
+        <div class="linha"></div>
+        <p>Confira alguns feedbacks dos nossos clientes</p>
+      </div>
+      <div class="depoimentos-container">
+        <div class="depoimento">
+          <img src="src/assets/imgs/ana.png" alt="Foto de Ana">
+          <h3>Ana</h3>
+          <p>"Os vinhos chegaram muito bem embalados e a entrega foi super rápida!"</p>
+        </div>
+        <div class="depoimento">
+          <img src="src/assets/imgs/joao.png" alt="Foto de João">
+          <h3>João</h3>
+          <p>"A seleção da vinheria é impecável. Estou encantado com a qualidade!"</p>
+        </div>
+        <div class="depoimento">
+          <img src="src/assets/imgs/marina.png" alt="Foto de Marina">
+          <h3>Marina</h3>
+          <p>"Foi minha primeira compra e com certeza farei outras. Recomendo!"</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Vinheria Agnello. Todos os direitos reservados.</p>
+    <nav>
+      <a href="#">Política de Privacidade</a> |
+      <a href="#">Termos de Uso</a>
+    </nav>
+  </footer>
+
+  <script src="src/js/script.js"></script>
+</body>
+</html>
