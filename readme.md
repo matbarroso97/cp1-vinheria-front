@@ -46,12 +46,7 @@ Página com formulário de contato, além de informações como endereço, telef
 ---
 
 ## 👥 Nome dos integrantes
-
 - Matheus da Costa Barroso
 
----
-
 ## 🔗 Link para o site no GitHub Pages
-
-> _[Será inserido após a publicação]_  
-> (Adicione o link para o site hospedado quando estiver disponível)
+- https://matbarroso97.github.io/cp1-vinheria-front/ 
