@@ -710,6 +710,7 @@ footer nav a {
   flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
+  margin-top: 60px
 }
 
 .passo-a-passo {
