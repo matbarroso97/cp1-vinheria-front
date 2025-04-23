@@ -491,7 +491,6 @@ footer nav a {
   margin-bottom: 20px;
   color: #800028;
   font-family: 'Chau Philomene One', serif;
-  font-size: 24px
 }
 
 .secao-titulo-vinho .linha {
@@ -540,7 +539,6 @@ footer nav a {
   margin-bottom: 20px;
   color: #800028;
   font-family: 'Chau Philomene One', serif;
-  font-size: 24px
 }
 
 
@@ -576,7 +574,7 @@ footer nav a {
   width: 90px; /* Longa — ideal para "Exclusivos", "Sobremesas", etc. */
   height: 3px;
   background-color: #800028;
-  margin: 4px 130px;
+  margin: 4px 100px;
   border-radius: 5px;
 }
 
@@ -713,8 +711,12 @@ footer nav a {
   position: relative;
   padding-left: 36px;
   color: #333;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 2.5;
+}
+
+.passo-a-passo li strong {
+  font-size: 22px;
 }
 
 .passo-a-passo li::before {
@@ -733,7 +735,7 @@ footer nav a {
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  top: 10px;
+  top: 15px;
 }
 
 .info-lateral {
@@ -748,14 +750,14 @@ footer nav a {
 .video-box h3 {
   font-family: 'Chau Philomene One', serif;
   color: #800028;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 5px;
   text-align: center;
 }
 
 .video-box p {
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 10px;
   color: #444;
   font-family: 'Chau Philomene One', serif;
@@ -816,9 +818,7 @@ footer nav a {
   color: #800028;
   font-family: 'Chau Philomene One', serif;
 }
-.secao-titulo-contato h2 {
-  font-size: 32px;
-}
+
 .secao-titulo-contato .linha {
   width: 60px;
   height: 3px;
@@ -935,6 +935,17 @@ footer nav a {
 
 .info-contato-box .whatsapp-link:hover {
   background-color: #1ebe57;
+}
+
+/*padronizando todas as fontes */
+
+.secao-titulo h2,
+.secao-titulo-vinho h2,
+.secao-titulo-oferta h2,
+.secao-titulo-contato h2 {
+  font-size: 32px;
+  font-family: 'Chau Philomene One', serif;
+  color: #800028;
 }
 
 

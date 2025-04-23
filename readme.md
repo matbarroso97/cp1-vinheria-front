@@ -49,4 +49,4 @@ Página com formulário de contato, além de informações como endereço, telef
 - Matheus da Costa Barroso
 
 ## 🔗 Link para o site no GitHub Pages
-- https://matbarroso97.github.io/cp1-vinheria-front/ 
+- https://matbarroso97.github.io/cp1-vinheria-front/
